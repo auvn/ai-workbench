@@ -1,2 +1,4 @@
-# Local agent-managed state and workspace indexes
-.agent-state/
+# Track only workspace instructions; ignore cloned repos, worktrees, and local state
+/*
+!/.gitignore
+!/AGENTS.md
