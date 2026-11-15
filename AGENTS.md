@@ -10,3 +10,4 @@ This directory coordinates independent repositories and worktrees.
 - Start new work in a fresh worktree from the repository's default branch.
 - Fetch the remote default branch before starting new work, unless the task explicitly specifies another base or branch.
 - For cross-repository tasks, keep changes and verification isolated per repository.
+- Put local agent-managed indexes and records under `.agent-state/`; do not commit them.
